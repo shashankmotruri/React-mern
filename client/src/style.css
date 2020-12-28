@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+/* reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: #2199df;
+  text-decoration: unset;
+}
+
+ul {
+  margin-left: 1.5rem;
+  list-style: none;
+}
+
+button,
+input[type="submit"] {
+  border: none;
+  background: none;
+  color: unset;
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/* general */
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.page {
+  padding: 1rem;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+/* header */
+
+#header {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e02525;
+}
+#header .title {
+  margin: 0;
+  padding: 0 1rem;
+  color: #ffffff;
+}
+#header .auth-options {
+  height: 100%;
+  display: flex;
+}
+#header .auth-options button {
+  padding: 0 1rem;
+  background-color: #b91b1b;
+  color: #ffffff;
+  font-size: 1.1rem;
+}
+#header .auth-options button:hover {
+  background-color: #be3a3a;
+}
+
+/* form */
+
+.page {
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 1rem;
+  margin-top: 5em;
+  border-radius: 8px;
+  border: 1px solid #dadce0;
+  padding: 48px 40px 36px;
+  display: block;
+  transition: .2s;
+}
+.page > h2{
+  color: #202124;
+font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+font-size: 24px;
+font-weight: 400;
+line-height: 1.3333;
+text-align: center;
+}
+
+
+button,input[type="submit"]{
+  border: none;
+  background: none;
+  color: unset;
+  cursor: pointer;
+}
+
+button{
+  padding: 0.5rem 1rem;
+  color: white;
+  font-size: 1.1rem;
+  margin-top: 22px;
+}
+button:hover{
+  background-color: #1888ff;
+border-radius: 4px;
+transition: all 0.2s ease-out;
+}
+
+
+/* form */
+
+.form label,
+.form input {
+  display: block;
+}
+.form input {
+  margin-bottom: 1rem;
+}
+.form label {
+  margin-bottom: 0.2rem;
+}
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="password"] {
+  width: 100%;
+  padding: 0.3rem;
+  border: 1px solid #c2c2c2;
+  border-radius: 8px;
+  background-color: #f0f0f0;
+  font-size: 1.1rem;
+}
+.form input:focus {
+  border: 1px solid #50a4e9;
+  outline: none;
+}
+.form input[type="submit"] {
+  padding: 0.3rem 0.5rem;
+  border-radius: 8px;
+  background-color: #c8ecb7;
+  font-size: 1.1rem;
+}
+
+#login-btn,#register-btn{
+  color: white;
+  background-color: #1a73e8;
+  min-width: 88px;
+  padding: 0 24px 0 24px;
+  font-family: "Google Sans",Roboto,Arial,sans-serif;
+font-size: .875rem;
+font-weight: 500;
+letter-spacing: .0107142857em;
+text-transform: none;
+transition: border 280ms cubic-bezier(0.4,0,0.2,1),box-shadow 280ms cubic-bezier(0.4,0,0.2,1);
+box-shadow: none;
+  height: 36px;
+}
+#register-btn {
+  margin-top: 1em;
+}
+#login-password ,#login-email,#register-password,
+#register-email,#register-password-check,#register-display-name{
+  direction: ltr;
+  text-align: left;
+  border-radius: 4px;
+color: #202124;
+font-size: 16px;
+margin: 2px;
+padding: 12px 14px;
+z-index: 1;
+line-height: 24px;
+}
+
+.form > label:nth-child(1) {
+  margin-top: 4em;
+  }
+  .form > label:nth-child(3) {
+    margin-top: 1em;
+    }
+    .form > input:nth-child(5) {
+      margin-top: 1em;
+      }
+      #register-password-check {
+        margin-top: 1em;
+        }
+        .form > label:nth-child(6) {
+          margin-top: 1em;
+          }
+/* error notice */
+
+.error-notice {
+  margin: 1rem 0;
+  padding: 0.5rem;
+  border: 1px solid #e07c7c;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8d6d6;
+}
+.error-notice button {
+  padding-right: 1.5rem !important;
+  padding-bottom: 0px !important;
+  padding-top: 0px !important;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #df4343;
+  color: #ffffff;
+}
+
+
+/*Add employee */
+
+#register-salary,#register-phone{
+  width: 100%;
+padding: 0.3rem;
+border: 1px solid #c2c2c2;
+border-radius: 8px;
+background-color: #f0f0f0;
+font-size: 1.1rem;
+}
+
+#empl-list{
+  color: black !important;
+  border: 1px solid #c2c2c2;
+}
